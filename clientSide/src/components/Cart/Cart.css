@@ -1,0 +1,39 @@
+p{
+  font-size: large;
+  padding-left: 0rem;
+}
+div{
+    font-size: medium;
+    color:brown;
+}
+#row{
+    padding-bottom: 1rem;
+}
+.container{
+    padding-top: 7rem;
+}
+h1{
+    font-size: xx-large;
+    padding-bottom: 3rem;
+}
+.payment{
+    text-transform: capitalize;
+    font-size: 1.4rem;
+    background: transparent;
+    border: 0.5rem solid var(--mainGreen); 
+    border-radius: 0.5rem;
+    padding: 0.2rem 0.5rem;
+    cursor:pointer;
+    margin:0.2rem 0.5rem 0.2rem 0;
+    transition:all 0.5s ease-in-out;
+    border-color: var(--mainBrown);
+    color:var(--mainGreen) ;
+}
+.payment:hover{
+    color: var(--mainYellow);
+    background: var(--mainBrown);    
+}
+.payment:focus{
+    outline: none;
+  }
+

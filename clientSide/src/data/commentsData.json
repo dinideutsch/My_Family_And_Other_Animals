@@ -1,0 +1,19 @@
+{
+  "customersComments": [
+    {
+      "name": "dini",
+      "email": "dinis",
+      "subject": "i love you",
+      "content": "you are so cute!",
+      "id": 1
+    },
+    {
+      "name": "dini",
+      "email": "dinis",
+      "subject": "i love you",
+      "content": "you are so cute!",
+      "id": 2
+    }
+
+  ]
+}

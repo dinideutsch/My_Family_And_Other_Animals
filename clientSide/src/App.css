@@ -1,0 +1,48 @@
+:root{
+  --mainBlue:#0000ff;
+  --mainBrown:#800000;
+  --mainWhite:#f3f3f3;
+  --mainBlack:#232528;
+  --mainRed:#ff0000;
+  --mainGreen:#0aac0a;
+  --mainYellow:#ffff00;
+}
+body{
+  font-family: 'Akaya Telivigala', cursive !important;
+  background:var(--mainWhite)!important;
+  color:var(--mainBlack)!important;
+}
+.text-title{
+  font-family: 'Patrick Hand', cursive;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+.brown-text{
+  color:var(--mainBrown);
+}
+.green-text{
+  color:var(--mainGreen);
+}
+.btn-black{
+  background: transparent;
+  text-transform: capitalize;
+  font-size: 0.8rem !important;
+  color: var(--mainBlack);
+  border-radius: 0 !important;
+  border: 0.1rem solid var(--mainBlack) !important
+}
+.btn-black:hover{
+  background: var(--mainBlack);
+  color:var(--mainWhite);
+}
+.cart-icon{
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: brown;
+}
+.nav-links {
+  color: var(--mainWhite) !important;
+  text-decoration: none;
+  background-color: transparent;
+  padding: 1rem;
+}

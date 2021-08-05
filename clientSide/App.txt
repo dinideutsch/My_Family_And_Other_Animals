@@ -1,0 +1,28 @@
+import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css'
+import React, { Component } from 'react';
+import {Switch, Route} from 'react-router-dom';
+import Nav from './components/Nav';
+import Cart from './components/Cart/Cart';
+import PetList from './components/PetList';
+import Details from './components/Details';
+import Error from './components/Error';
+import Modal from './components/Modal';
+import Home from './components/Home'
+function App() {
+  return (
+    <React.Fragment>
+      <Nav/>
+      <Switch>
+        <Route exact path="/" component={Home}/>
+        <Route exact path="/petlist" component={PetList}/>
+        <Route path="/details" component={Details}/>
+        <Route path="/cart" component={Cart}/>
+        <Route component={Error}/>
+      </Switch> 
+      <Modal/>
+    </React.Fragment>
+  );
+}
+
+export default App;

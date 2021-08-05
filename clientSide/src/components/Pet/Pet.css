@@ -1,0 +1,53 @@
+.card {
+  border-color:transparent;
+  transition:all is linear;
+}
+.card-footer {
+  background: transparent;
+  border-top: transparent;
+  transition:all is linear;
+}
+
+.card:hover{
+    border:0.04rem solid rgba(0,0,0,0.2);
+    box-shadow:2px 2px 5px 0px rgba (0,0,0,0.2);
+}
+  .card-footer:hover{
+    background: rgba(247,247,247);
+}
+.pet-wrapper{
+  padding-bottom: 1rem;
+}
+
+.img-container{
+  position: relative;
+  overflow: hidden;
+  height: 30rem;
+}
+.card-img-top{
+  transition:all is linear;
+}
+.img-container:hover .card-img-top{
+  transform: scale(1.2);
+}
+.cart-btn{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 0.2rem 0.4rem;
+  background: rgb(83, 12, 12);
+  border: none;
+  color:white;
+  font-size:1.4rem;
+  border-radius:0.5 0 0 0;
+  transform:translate(100%,100%);
+  transition:all is linear;
+}
+.img-container:hover .cart-btn{
+  transform:translate(0,0);
+}
+.cart-btn:hover{
+  background: white;
+  color:rgb(83, 12, 12);
+  cursor: pointer;
+}
