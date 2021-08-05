@@ -1,11 +1,12 @@
 ## My Family And Other Animals
 
 #### Description
-My Family And Other Animals is a web application for ordering pets, pets' food and accessories.
+My Family And Other Animals is a web application for buying pets, pets' food and accessories.
 
-This project was implemented in two stages, :
-1. Final project at react course, with the data stored in json files.
-2. Final project at node.js course, with the data stored in mongodb tables, and used with node.js API.
+The project is divided into two parts:
+1. client side -  implemented with HTML, css and react.js, in charge of the visibility and 
+functioning of the website.
+2. server side - implemented with node.js (Express), in charge of providing the API to manage the data which is stored in mongodb tables.
 
 #### Usage
 
