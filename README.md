@@ -23,4 +23,6 @@ Note: you will probably need to create a new mongodb database.
 2. secondly run the client  with these commands:
    * npm install
    * npm start
-   
+  
+#### Demo
+ ![petshop-_online-video-cutter](https://user-images.githubusercontent.com/86185062/128439902-9bbbe08d-3713-40a1-9c81-f324f81ed442.gif)
